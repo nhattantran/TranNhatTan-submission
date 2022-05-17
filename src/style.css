@@ -71,12 +71,12 @@ div.content {
 
 .row {
   display: flex;
-  align-item: center;
+  align-items: center;
   justify-content: center;
   color: black
 }
 
-p {
+p.midtext {
   text-align: center;
   background-color: #a6a6a6;
   width : 100%;
@@ -96,5 +96,13 @@ p {
 }
 
 .square {
-  display: inline-block
+  display: inline-block;
+}
+
+footer{
+  height: 50px;
+  width: 100%;
+  padding: 10px 10% 10px 10%;
+  color:#cccccc;
+  border-top: 1px solid #cccccc;
 }
